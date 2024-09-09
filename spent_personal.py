@@ -1,7 +1,7 @@
 import csv
 
 total_sum = 0.0
-#Open csv file
+
 with open('spent.csv') as file:
     csv_reader = csv.DictReader(file)
         
